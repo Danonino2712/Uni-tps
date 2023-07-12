@@ -9,11 +9,11 @@ def trabajadores(x):
         b=int(input("Ingrese la edad:"))
         if a.lower()=="gustavo":
            gustavo+=1
-        if a.lower()=="pedro":
+        if a.lower()=="pedro": 
            pedro="si hay un pedro" 
         if b>=mayor:
            mayor=b
         nombres.append(a)
         edades.append(b)
     return f"hay {gustavo} personas que se llaman Gustavo. {pedro}. {mayor} es la mayor edad."
-print(trabajadores(2))
+print(trabajadores(5))

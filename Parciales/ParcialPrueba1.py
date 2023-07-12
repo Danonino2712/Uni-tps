@@ -47,7 +47,7 @@ main()
 # Desarrolle una función que dado un N mayor que 100 e informe los números entre 100 y N, que 
 # siendo pares además son múltiplos de 5. La función además deberá retornar la cantidad 
 # de números que cumplen con ese criterio.
-
+'''
 def multiples_de_5_entre_100_y_n(n):
     contador = 0
     for numero in range(100, n+1):
@@ -56,4 +56,4 @@ def multiples_de_5_entre_100_y_n(n):
             contador += 1
     return contador
 
-print(multiples_de_5_entre_100_y_n(10))
+print(multiples_de_5_entre_100_y_n(200))'''

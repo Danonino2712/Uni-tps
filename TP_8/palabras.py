@@ -1,12 +1,7 @@
-palabras = []
-palabra = input("Ingresa una palabra: ")
+palabra = ""
 
 while palabra != "parar":
-    palabras.append(palabra)
-    palabra = input("Ingresa otra palabra (o escribe 'parar' para detener el programa): ")
-
-print("Estas son las palabras que ingresaste:")
-for palabra in palabras:
+    palabra = input("Ingrese una palabra (o escriba 'parar' para finalizar): ")
     print(palabra)
 
 print("--- TERMINADO ---")
